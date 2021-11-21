@@ -24,7 +24,7 @@
 		A3A81D602748D77E007F5C2F /* VerticalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A81D5F2748D77E007F5C2F /* VerticalListView.swift */; };
 		A3A81D6B2748E27F007F5C2F /* HorizontalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A81D6A2748E27F007F5C2F /* HorizontalListView.swift */; };
 		A3A81D702748E2E6007F5C2F /* HorizontalListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A81D6F2748E2E6007F5C2F /* HorizontalListItem.swift */; };
-		A3A81D812748F6E5007F5C2F /* TextShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A81D802748F6E5007F5C2F /* TextShimmer.swift */; };
+		A3A81D812748F6E5007F5C2F /* ShimmerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A81D802748F6E5007F5C2F /* ShimmerList.swift */; };
 		A3B7209526E1D1BB00BB72B2 /* AppLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B7209426E1D1BB00BB72B2 /* AppLabel.swift */; };
 		A3B720A726E2879400BB72B2 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B720A626E2879400BB72B2 /* TextStyle.swift */; };
 		A3B720B126E3AACD00BB72B2 /* ViewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B720B026E3AACD00BB72B2 /* ViewsList.swift */; };
@@ -77,7 +77,7 @@
 		A3A81D5F2748D77E007F5C2F /* VerticalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalListView.swift; sourceTree = "<group>"; };
 		A3A81D6A2748E27F007F5C2F /* HorizontalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalListView.swift; sourceTree = "<group>"; };
 		A3A81D6F2748E2E6007F5C2F /* HorizontalListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalListItem.swift; sourceTree = "<group>"; };
-		A3A81D802748F6E5007F5C2F /* TextShimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextShimmer.swift; sourceTree = "<group>"; };
+		A3A81D802748F6E5007F5C2F /* ShimmerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerList.swift; sourceTree = "<group>"; };
 		A3B7209426E1D1BB00BB72B2 /* AppLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLabel.swift; sourceTree = "<group>"; };
 		A3B720A626E2879400BB72B2 /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
 		A3B720B026E3AACD00BB72B2 /* ViewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsList.swift; sourceTree = "<group>"; };
@@ -216,7 +216,7 @@
 		A3A81D7C2748F685007F5C2F /* ShimmerList */ = {
 			isa = PBXGroup;
 			children = (
-				A3A81D802748F6E5007F5C2F /* TextShimmer.swift */,
+				A3A81D802748F6E5007F5C2F /* ShimmerList.swift */,
 			);
 			path = ShimmerList;
 			sourceTree = "<group>";
@@ -437,7 +437,7 @@
 			files = (
 				A3B720B126E3AACD00BB72B2 /* ViewsList.swift in Sources */,
 				A3B720DA26E4C8EA00BB72B2 /* Spacing.swift in Sources */,
-				A3A81D812748F6E5007F5C2F /* TextShimmer.swift in Sources */,
+				A3A81D812748F6E5007F5C2F /* ShimmerList.swift in Sources */,
 				A388B38126FA29460000FBB2 /* AppCollectionView.swift in Sources */,
 				A3B720BC26E4BBDB00BB72B2 /* MenuItems.swift in Sources */,
 				A3A81D6B2748E27F007F5C2F /* HorizontalListView.swift in Sources */,

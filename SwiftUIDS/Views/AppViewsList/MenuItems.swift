@@ -22,7 +22,8 @@ let menuItems: [MenuItem] = [
     MenuItem(id: 7, title: "Horizontal List"),
     MenuItem(id: 8, title: "Vertical User List"),
     MenuItem(id: 9, title: "Horizontal User List"),
-    MenuItem(id: 10, title: "Circular Loader")
+    MenuItem(id: 10, title: "Circular Loader"),
+    MenuItem(id: 11, title: "Text Shimmer")
 ]
 
 let collectionItems: [CollectionItemModel] = [

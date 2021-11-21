@@ -46,6 +46,8 @@ struct MenuItemDetail: View {
             
         case 10:
             ActivityIndicator()
+        case 11:
+            ShimmerCardListView()
         default:
             Text("No Item available yet")
         }
