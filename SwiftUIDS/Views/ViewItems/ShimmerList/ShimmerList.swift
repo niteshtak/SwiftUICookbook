@@ -78,10 +78,10 @@ struct CardShimmer: View {
 }
 
 struct ShimmerCardListView: View {
-    
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack {
+                TextShimmer()
                 ForEach(0...10, id: \.self) { _ in
                     CardShimmer()
                 }

@@ -25,6 +25,7 @@
 		A3A81D6B2748E27F007F5C2F /* HorizontalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A81D6A2748E27F007F5C2F /* HorizontalListView.swift */; };
 		A3A81D702748E2E6007F5C2F /* HorizontalListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A81D6F2748E2E6007F5C2F /* HorizontalListItem.swift */; };
 		A3A81D812748F6E5007F5C2F /* ShimmerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A81D802748F6E5007F5C2F /* ShimmerList.swift */; };
+		A3A81D8C274A3E6E007F5C2F /* SwipeableCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A81D8B274A3E6E007F5C2F /* SwipeableCard.swift */; };
 		A3B7209526E1D1BB00BB72B2 /* AppLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B7209426E1D1BB00BB72B2 /* AppLabel.swift */; };
 		A3B720A726E2879400BB72B2 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B720A626E2879400BB72B2 /* TextStyle.swift */; };
 		A3B720B126E3AACD00BB72B2 /* ViewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B720B026E3AACD00BB72B2 /* ViewsList.swift */; };
@@ -78,6 +79,7 @@
 		A3A81D6A2748E27F007F5C2F /* HorizontalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalListView.swift; sourceTree = "<group>"; };
 		A3A81D6F2748E2E6007F5C2F /* HorizontalListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalListItem.swift; sourceTree = "<group>"; };
 		A3A81D802748F6E5007F5C2F /* ShimmerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerList.swift; sourceTree = "<group>"; };
+		A3A81D8B274A3E6E007F5C2F /* SwipeableCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCard.swift; sourceTree = "<group>"; };
 		A3B7209426E1D1BB00BB72B2 /* AppLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLabel.swift; sourceTree = "<group>"; };
 		A3B720A626E2879400BB72B2 /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
 		A3B720B026E3AACD00BB72B2 /* ViewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsList.swift; sourceTree = "<group>"; };
@@ -221,6 +223,14 @@
 			path = ShimmerList;
 			sourceTree = "<group>";
 		};
+		A3A81D90274A3E73007F5C2F /* CardViews */ = {
+			isa = PBXGroup;
+			children = (
+				A3A81D8B274A3E6E007F5C2F /* SwipeableCard.swift */,
+			);
+			path = CardViews;
+			sourceTree = "<group>";
+		};
 		A3B7209326E1D1A300BB72B2 /* Labels */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +278,7 @@
 		A3B720CC26E4C2B100BB72B2 /* ViewItems */ = {
 			isa = PBXGroup;
 			children = (
+				A3A81D90274A3E73007F5C2F /* CardViews */,
 				A3A81D7C2748F685007F5C2F /* ShimmerList */,
 				A3A81D4E273AB8CA007F5C2F /* ListViews */,
 				A3A81D45272707A4007F5C2F /* Loader */,
@@ -448,6 +459,7 @@
 				A3A81D602748D77E007F5C2F /* VerticalListView.swift in Sources */,
 				A3A81D702748E2E6007F5C2F /* HorizontalListItem.swift in Sources */,
 				A3854DA026C80D6700762655 /* AppDelegate.swift in Sources */,
+				A3A81D8C274A3E6E007F5C2F /* SwipeableCard.swift in Sources */,
 				A3B720D226E4C39B00BB72B2 /* AppTextFields.swift in Sources */,
 				A3854DA226C80D6700762655 /* SceneDelegate.swift in Sources */,
 				A3A81D582748CFCE007F5C2F /* ListData.swift in Sources */,

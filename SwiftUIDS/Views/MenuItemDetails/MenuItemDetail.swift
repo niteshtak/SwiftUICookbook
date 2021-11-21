@@ -35,18 +35,13 @@ struct MenuItemDetail: View {
                             Color.blue
                         }
                     }.edgesIgnoringSafeArea(.all)
-        case 7:
-            CollectionItem(model: CollectionItemModel(id: 0, title: "Item 1", imageUrl: "0"))
-            
-        case 8:
+        case 6:
             VerticalListView()
-            
-        case 9:
+        case 7:
             HorizontalListView()
-            
-        case 10:
+        case 8:
             ActivityIndicator()
-        case 11:
+        case 9:
             ShimmerCardListView()
         default:
             Text("No Item available yet")

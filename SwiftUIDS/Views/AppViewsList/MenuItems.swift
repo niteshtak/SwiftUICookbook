@@ -18,12 +18,10 @@ let menuItems: [MenuItem] = [
     MenuItem(id: 3, title: "App TextFields"),
     MenuItem(id: 4, title: "App TextView"),
     MenuItem(id: 5, title: "Bottom Sheet"),
-    MenuItem(id: 6, title: "Collection Item"),
-    MenuItem(id: 7, title: "Horizontal List"),
-    MenuItem(id: 8, title: "Vertical User List"),
-    MenuItem(id: 9, title: "Horizontal User List"),
-    MenuItem(id: 10, title: "Circular Loader"),
-    MenuItem(id: 11, title: "Text Shimmer")
+    MenuItem(id: 6, title: "Vertical User List"),
+    MenuItem(id: 7, title: "Horizontal User List"),
+    MenuItem(id: 8, title: "Circular Loader"),
+    MenuItem(id: 9, title: "Shimmer Effect")
 ]
 
 let collectionItems: [CollectionItemModel] = [
