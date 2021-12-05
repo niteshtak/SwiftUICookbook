@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -37,6 +37,7 @@
 		A3C521EB2753A45400D94509 /* CreditCardForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C521EA2753A45400D94509 /* CreditCardForm.swift */; };
 		A3C521EE2753DE3100D94509 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C521ED2753DE3100D94509 /* BannerView.swift */; };
 		A3CA924A27083CD5004804B4 /* ImagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CA924927083CD5004804B4 /* ImagePreview.swift */; };
+		A3D286CE275C9E24003C2942 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = A3D286CD275C9E24003C2942 /* ViewInspector */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D286CE275C9E24003C2942 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +356,9 @@
 			dependencies = (
 			);
 			name = SwiftUIDS;
+			packageProductDependencies = (
+				A3D286CD275C9E24003C2942 /* ViewInspector */,
+			);
 			productName = SwiftUIDS;
 			productReference = A3854D9C26C80D6700762655 /* SwiftUIDS.app */;
 			productType = "com.apple.product-type.application";
@@ -425,6 +430,9 @@
 				Base,
 			);
 			mainGroup = A3854D9326C80D6700762655;
+			packageReferences = (
+				A3D286CC275C9E24003C2942 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+			);
 			productRefGroup = A3854D9D26C80D6700762655 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -664,6 +672,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDS/Preview Content\"";
 				DEVELOPMENT_TEAM = WY25JZ5T88;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				INFOPLIST_FILE = SwiftUIDS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -685,6 +694,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDS/Preview Content\"";
 				DEVELOPMENT_TEAM = WY25JZ5T88;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				INFOPLIST_FILE = SwiftUIDS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -821,6 +831,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A3D286CC275C9E24003C2942 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A3D286CD275C9E24003C2942 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3D286CC275C9E24003C2942 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A3854D9426C80D6700762655 /* Project object */;
 }
