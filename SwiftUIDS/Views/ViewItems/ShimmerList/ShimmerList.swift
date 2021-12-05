@@ -13,7 +13,6 @@ struct TextShimmer: View {
     
     var body: some View {
         ZStack {
-            
             Color.black.edgesIgnoringSafeArea(.all)
             
             ZStack {

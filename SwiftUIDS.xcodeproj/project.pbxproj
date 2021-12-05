@@ -34,6 +34,8 @@
 		A3B720D226E4C39B00BB72B2 /* AppTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B720D126E4C39B00BB72B2 /* AppTextFields.swift */; };
 		A3B720DA26E4C8EA00BB72B2 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B720D926E4C8EA00BB72B2 /* Spacing.swift */; };
 		A3B7213226F3A44500BB72B2 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B7213126F3A44500BB72B2 /* BottomSheet.swift */; };
+		A3C521EB2753A45400D94509 /* CreditCardForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C521EA2753A45400D94509 /* CreditCardForm.swift */; };
+		A3C521EE2753DE3100D94509 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C521ED2753DE3100D94509 /* BannerView.swift */; };
 		A3CA924A27083CD5004804B4 /* ImagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CA924927083CD5004804B4 /* ImagePreview.swift */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +90,8 @@
 		A3B720D126E4C39B00BB72B2 /* AppTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextFields.swift; sourceTree = "<group>"; };
 		A3B720D926E4C8EA00BB72B2 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
 		A3B7213126F3A44500BB72B2 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		A3C521EA2753A45400D94509 /* CreditCardForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardForm.swift; sourceTree = "<group>"; };
+		A3C521ED2753DE3100D94509 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		A3CA924927083CD5004804B4 /* ImagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -278,6 +282,8 @@
 		A3B720CC26E4C2B100BB72B2 /* ViewItems */ = {
 			isa = PBXGroup;
 			children = (
+				A3C521EC2753DE1500D94509 /* NotificationBanner */,
+				A3C521E92753A43800D94509 /* CreditCardForm */,
 				A3A81D90274A3E73007F5C2F /* CardViews */,
 				A3A81D7C2748F685007F5C2F /* ShimmerList */,
 				A3A81D4E273AB8CA007F5C2F /* ListViews */,
@@ -314,6 +320,22 @@
 				A388B37A26F6E3EB0000FBB2 /* SheetView.swift */,
 			);
 			path = BottomSheet;
+			sourceTree = "<group>";
+		};
+		A3C521E92753A43800D94509 /* CreditCardForm */ = {
+			isa = PBXGroup;
+			children = (
+				A3C521EA2753A45400D94509 /* CreditCardForm.swift */,
+			);
+			path = CreditCardForm;
+			sourceTree = "<group>";
+		};
+		A3C521EC2753DE1500D94509 /* NotificationBanner */ = {
+			isa = PBXGroup;
+			children = (
+				A3C521ED2753DE3100D94509 /* BannerView.swift */,
+			);
+			path = NotificationBanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,6 +468,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C521EE2753DE3100D94509 /* BannerView.swift in Sources */,
+				A3C521EB2753A45400D94509 /* CreditCardForm.swift in Sources */,
 				A3B720B126E3AACD00BB72B2 /* ViewsList.swift in Sources */,
 				A3B720DA26E4C8EA00BB72B2 /* Spacing.swift in Sources */,
 				A3A81D812748F6E5007F5C2F /* ShimmerList.swift in Sources */,

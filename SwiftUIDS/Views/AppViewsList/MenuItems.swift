@@ -16,12 +16,14 @@ let menuItems: [MenuItem] = [
     MenuItem(id: 1, title: "App Buttons"),
     MenuItem(id: 2, title: "App Labels"),
     MenuItem(id: 3, title: "App TextFields"),
-    MenuItem(id: 4, title: "App TextView"),
+    MenuItem(id: 4, title: "In App Notifications"),
     MenuItem(id: 5, title: "Bottom Sheet"),
     MenuItem(id: 6, title: "Vertical User List"),
     MenuItem(id: 7, title: "Horizontal User List"),
     MenuItem(id: 8, title: "Circular Loader"),
-    MenuItem(id: 9, title: "Shimmer Effect")
+    MenuItem(id: 9, title: "Shimmer Effect"),
+    MenuItem(id: 10, title: "Swipeable CardView"),
+    MenuItem(id: 11, title: "Credit Card Form")
 ]
 
 let collectionItems: [CollectionItemModel] = [

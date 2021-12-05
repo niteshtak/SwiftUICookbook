@@ -11,6 +11,8 @@ struct MenuItemDetail: View {
     let item: MenuItem
     
     @State private var bottomSheetShown = false
+    @State private var showBanner: Bool = false
+    @State var bannerData: BannerData = BannerData(title: "Notification Title", message: "A random message to display on banner.", status: .warning)
     
     var body: some View {
         switch item.id {
@@ -43,8 +45,17 @@ struct MenuItemDetail: View {
             ActivityIndicator()
         case 9:
             ShimmerCardListView()
+        case 10:
+            CardStackView()
+        case 11:
+            CardFormView()
         default:
-            Text("No Item available yet")
+            //Text("No Item available yet")
+            Button(action: {
+                    self.showBanner = true
+                }) {
+                    Text("Show Banner")
+                }.banner(data: $bannerData, show: $showBanner)
         }
     }
 }
