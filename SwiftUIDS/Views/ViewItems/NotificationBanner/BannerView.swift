@@ -65,13 +65,13 @@ struct BannerData {
 
 struct BannerViewModifier: ViewModifier {
     
-    @Binding var show: Bool
+    @Binding var isPresented: Bool
     @Binding var data: BannerData
     let action: (() -> Void)?
     
     func body(content: Content) -> some View {
         ZStack {
-            if show {
+            if isPresented {
                 VStack {
                     HStack {
                         VStack(alignment: .leading, spacing: 2) {
@@ -93,12 +93,12 @@ struct BannerViewModifier: ViewModifier {
                 .transition(AnyTransition.move(edge: .top).combined(with: .opacity))
                 .onTapGesture {
                     withAnimation {
-                        self.show = false
+                        self.isPresented = false
                     }
                 }.onAppear(perform: {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 8) {
                         withAnimation {
-                            self.show = false
+                            self.isPresented = false
                         }
                     }
                 })
@@ -110,6 +110,6 @@ struct BannerViewModifier: ViewModifier {
 
 extension View {
     func banner(data: Binding<BannerData>, show: Binding<Bool>, action: (() -> Void)? = nil) -> some View {
-        self.modifier(BannerViewModifier(show: show, data: data, action: action))
+        self.modifier(BannerViewModifier(isPresented: show, data: data, action: action))
     }
 }
