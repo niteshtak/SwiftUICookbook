@@ -9,14 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-//        AppButton(title: "Primary", type: .primary) {
-//            print("Say Primary")
-//        }
-       // AppLabel(title: "Hello SwiftUI!", style: .heading1)
-        //ViewsList()
         NavigationView {
             ViewsList()
-            .navigationTitle("Design System")
+            .navigationTitle("SwiftUI Cookbook")
         }
     }
 }

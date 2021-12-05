@@ -11,6 +11,8 @@ struct MenuItemDetail: View {
     let item: MenuItem
     
     @State private var bottomSheetShown = false
+    @State private var showBanner: Bool = false
+    @State var bannerData: BannerData = BannerData(title: "Notification Title", message: "A random message to display on banner.", status: .warning)
     
     var body: some View {
         switch item.id {
@@ -35,19 +37,25 @@ struct MenuItemDetail: View {
                             Color.blue
                         }
                     }.edgesIgnoringSafeArea(.all)
-        case 7:
-            CollectionItem(model: CollectionItemModel(id: 0, title: "Item 1", imageUrl: "0"))
-            
-        case 8:
+        case 6:
             VerticalListView()
-            
-        case 9:
+        case 7:
             HorizontalListView()
-            
-        case 10:
+        case 8:
             ActivityIndicator()
+        case 9:
+            ShimmerCardListView()
+        case 10:
+            CardStackView()
+        case 11:
+            CardFormView()
         default:
-            Text("No Item available yet")
+            //Text("No Item available yet")
+            Button(action: {
+                    self.showBanner = true
+                }) {
+                    Text("Show Banner")
+                }.banner(data: $bannerData, show: $showBanner)
         }
     }
 }
