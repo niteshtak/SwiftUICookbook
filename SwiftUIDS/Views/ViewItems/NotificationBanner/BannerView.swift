@@ -34,35 +34,6 @@ struct BannerData {
     let status: BannerStatus
 }
 
-//struct Banner: View {
-//    
-//    let data: BannerData
-//    var action: (() -> Void)?
-//    
-//    var body: some View {
-//        ZStack {
-//                VStack {
-//                    HStack {
-//                        // Banner Content Here
-//                        VStack(alignment: .leading, spacing: 2) {
-//                            Text(data.title)
-//                                .bold()
-//                            Text(data.message)
-//                                .font(Font.system(size: 15, weight: Font.Weight.light, design: Font.Design.default))
-//                        }
-//                        .foregroundColor(Color.white)
-//                        .padding(12)
-//                        .background(data.status.tintColor)
-//                        .cornerRadius(8)
-//                        
-//                        Spacer()
-//                    }
-//                    Spacer()
-//                }
-//            }
-//    }
-//}
-
 struct BannerViewModifier: ViewModifier {
     
     @Binding var isPresented: Bool
@@ -96,7 +67,7 @@ struct BannerViewModifier: ViewModifier {
                         self.isPresented = false
                     }
                 }.onAppear(perform: {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 8) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                         withAnimation {
                             self.isPresented = false
                         }
