@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -37,7 +37,8 @@
 		A3C521EB2753A45400D94509 /* CreditCardForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C521EA2753A45400D94509 /* CreditCardForm.swift */; };
 		A3C521EE2753DE3100D94509 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C521ED2753DE3100D94509 /* BannerView.swift */; };
 		A3CA924A27083CD5004804B4 /* ImagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CA924927083CD5004804B4 /* ImagePreview.swift */; };
-		A3D286CE275C9E24003C2942 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = A3D286CD275C9E24003C2942 /* ViewInspector */; };
+		A3D286D1275CC7D2003C2942 /* LineCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D286D0275CC7D2003C2942 /* LineCharts.swift */; };
+		A3D286D5275CCC86003C2942 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D286D3275CCC6C003C2942 /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,8 @@
 		A3C521EA2753A45400D94509 /* CreditCardForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardForm.swift; sourceTree = "<group>"; };
 		A3C521ED2753DE3100D94509 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		A3CA924927083CD5004804B4 /* ImagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreview.swift; sourceTree = "<group>"; };
+		A3D286D0275CC7D2003C2942 /* LineCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCharts.swift; sourceTree = "<group>"; };
+		A3D286D3275CCC6C003C2942 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +104,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3D286CE275C9E24003C2942 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D286D5275CCC86003C2942 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +132,7 @@
 				A3854DB526C80D6900762655 /* SwiftUIDSTests */,
 				A3854DC026C80D6900762655 /* SwiftUIDSUITests */,
 				A3854D9D26C80D6700762655 /* Products */,
+				A3D286D2275CCC6C003C2942 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -284,6 +288,7 @@
 		A3B720CC26E4C2B100BB72B2 /* ViewItems */ = {
 			isa = PBXGroup;
 			children = (
+				A3D286CF275CC7BB003C2942 /* Charts */,
 				A3C521EC2753DE1500D94509 /* NotificationBanner */,
 				A3C521E92753A43800D94509 /* CreditCardForm */,
 				A3A81D90274A3E73007F5C2F /* CardViews */,
@@ -340,6 +345,22 @@
 			path = NotificationBanner;
 			sourceTree = "<group>";
 		};
+		A3D286CF275CC7BB003C2942 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				A3D286D0275CC7D2003C2942 /* LineCharts.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		A3D286D2275CCC6C003C2942 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3D286D3275CCC6C003C2942 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -357,7 +378,6 @@
 			);
 			name = SwiftUIDS;
 			packageProductDependencies = (
-				A3D286CD275C9E24003C2942 /* ViewInspector */,
 			);
 			productName = SwiftUIDS;
 			productReference = A3854D9C26C80D6700762655 /* SwiftUIDS.app */;
@@ -431,7 +451,6 @@
 			);
 			mainGroup = A3854D9326C80D6700762655;
 			packageReferences = (
-				A3D286CC275C9E24003C2942 /* XCRemoteSwiftPackageReference "ViewInspector" */,
 			);
 			productRefGroup = A3854D9D26C80D6700762655 /* Products */;
 			projectDirPath = "";
@@ -498,6 +517,7 @@
 				A3A81D47272707B0007F5C2F /* CircularLoader.swift in Sources */,
 				A3A81D50273AB904007F5C2F /* VerticalListItem.swift in Sources */,
 				A3854DD426C80E6000762655 /* AppButton.swift in Sources */,
+				A3D286D1275CC7D2003C2942 /* LineCharts.swift in Sources */,
 				A3B7209526E1D1BB00BB72B2 /* AppLabel.swift in Sources */,
 				A3B7213226F3A44500BB72B2 /* BottomSheet.swift in Sources */,
 				A3854DA426C80D6700762655 /* ContentView.swift in Sources */,
@@ -550,6 +570,7 @@
 		A3854DC426C80D6900762655 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -584,6 +605,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -598,7 +620,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -611,6 +634,7 @@
 		A3854DC526C80D6900762655 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -645,6 +669,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -653,7 +679,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -666,14 +693,17 @@
 		A3854DC726C80D6900762655 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDS/Preview Content\"";
 				DEVELOPMENT_TEAM = WY25JZ5T88;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				INFOPLIST_FILE = SwiftUIDS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -688,14 +718,17 @@
 		A3854DC826C80D6900762655 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDS/Preview Content\"";
 				DEVELOPMENT_TEAM = WY25JZ5T88;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				INFOPLIST_FILE = SwiftUIDS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -831,25 +864,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A3D286CC275C9E24003C2942 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/nalexn/ViewInspector";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.9.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A3D286CD275C9E24003C2942 /* ViewInspector */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A3D286CC275C9E24003C2942 /* XCRemoteSwiftPackageReference "ViewInspector" */;
-			productName = ViewInspector;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A3854D9426C80D6700762655 /* Project object */;
 }
