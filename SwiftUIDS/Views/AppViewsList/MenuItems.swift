@@ -23,7 +23,9 @@ let menuItems: [MenuItem] = [
     MenuItem(id: 8, title: "Circular Loader"),
     MenuItem(id: 9, title: "Shimmer Effect"),
     MenuItem(id: 10, title: "Swipeable CardView"),
-    MenuItem(id: 11, title: "Credit Card Form")
+    MenuItem(id: 11, title: "Credit Card Form"),
+    MenuItem(id: 12, title: "Line Chart View"),
+    MenuItem(id: 13, title: "FaceId Auth")
 ]
 
 let collectionItems: [CollectionItemModel] = [

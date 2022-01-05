@@ -49,6 +49,10 @@ struct MenuItemDetail: View {
             CardStackView()
         case 11:
             CardFormView()
+        case 12:
+            ChartView()
+        case 13:
+            FaceIdAuth()
         default:
             //Text("No Item available yet")
             Button(action: {
