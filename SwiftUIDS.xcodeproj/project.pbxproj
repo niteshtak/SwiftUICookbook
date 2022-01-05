@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3300FD92781610400B63C34 /* FaceIdAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3300FD82781610400B63C34 /* FaceIdAuth.swift */; };
 		A3854DA026C80D6700762655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3854D9F26C80D6700762655 /* AppDelegate.swift */; };
 		A3854DA226C80D6700762655 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3854DA126C80D6700762655 /* SceneDelegate.swift */; };
 		A3854DA426C80D6700762655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3854DA326C80D6700762655 /* ContentView.swift */; };
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3300FD82781610400B63C34 /* FaceIdAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIdAuth.swift; sourceTree = "<group>"; };
 		A3854D9C26C80D6700762655 /* SwiftUIDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3854D9F26C80D6700762655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3854DA126C80D6700762655 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3300FD7278160C300B63C34 /* FaceIdAuth */ = {
+			isa = PBXGroup;
+			children = (
+				A3300FD82781610400B63C34 /* FaceIdAuth.swift */,
+			);
+			path = FaceIdAuth;
+			sourceTree = "<group>";
+		};
 		A3854D9326C80D6700762655 = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +298,7 @@
 		A3B720CC26E4C2B100BB72B2 /* ViewItems */ = {
 			isa = PBXGroup;
 			children = (
+				A3300FD7278160C300B63C34 /* FaceIdAuth */,
 				A3D286CF275CC7BB003C2942 /* Charts */,
 				A3C521EC2753DE1500D94509 /* NotificationBanner */,
 				A3C521E92753A43800D94509 /* CreditCardForm */,
@@ -507,6 +518,7 @@
 				A3B720A726E2879400BB72B2 /* TextStyle.swift in Sources */,
 				A3B720C226E4BD2800BB72B2 /* MenuItemDetail.swift in Sources */,
 				A388B37B26F6E3EB0000FBB2 /* SheetView.swift in Sources */,
+				A3300FD92781610400B63C34 /* FaceIdAuth.swift in Sources */,
 				A3A81D602748D77E007F5C2F /* VerticalListView.swift in Sources */,
 				A3A81D702748E2E6007F5C2F /* HorizontalListItem.swift in Sources */,
 				A3854DA026C80D6700762655 /* AppDelegate.swift in Sources */,

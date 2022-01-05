@@ -56,6 +56,8 @@ struct CardFormView: View {
             } onCommit: {}
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding([.leading,.trailing])
+            
+            Spacer()
         }
     }
 }
