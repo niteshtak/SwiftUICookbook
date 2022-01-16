@@ -53,6 +53,8 @@ struct MenuItemDetail: View {
             ChartView()
         case 13:
             FaceIdAuth()
+        case 14:
+            ChatListView()
         default:
             //Text("No Item available yet")
             Button(action: {
