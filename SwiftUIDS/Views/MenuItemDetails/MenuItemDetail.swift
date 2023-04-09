@@ -10,6 +10,7 @@ import SwiftUI
 struct MenuItemDetail: View {
     let item: MenuItem
     
+    @StateObject var chipsViewModel = ChipsViewModel()
     @State private var bottomSheetShown = false
     @State private var showBanner: Bool = false
     @State var bannerData: BannerData = BannerData(title: "Notification Title", message: "A random message to display on banner.", status: .warning)
@@ -55,6 +56,8 @@ struct MenuItemDetail: View {
             FaceIdAuth()
         case 14:
             ChatListView()
+        case 15:
+            ChipsContentView()
         default:
             //Text("No Item available yet")
             Button(action: {

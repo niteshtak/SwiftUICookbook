@@ -44,6 +44,10 @@
 		A3CA924A27083CD5004804B4 /* ImagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CA924927083CD5004804B4 /* ImagePreview.swift */; };
 		A3D286D1275CC7D2003C2942 /* LineCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D286D0275CC7D2003C2942 /* LineCharts.swift */; };
 		A3D286D5275CCC86003C2942 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D286D3275CCC6C003C2942 /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A3F52CE029E2A7D400692F72 /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F52CDF29E2A7D400692F72 /* ChipView.swift */; };
+		A3F52CE229E2A91200692F72 /* ChipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F52CE129E2A91200692F72 /* ChipModel.swift */; };
+		A3F52CE429E2AB3B00692F72 /* ChipContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F52CE329E2AB3B00692F72 /* ChipContainerView.swift */; };
+		A3F52CE629E2ACE000692F72 /* ChipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F52CE529E2ACE000692F72 /* ChipsContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +111,10 @@
 		A3CA924927083CD5004804B4 /* ImagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreview.swift; sourceTree = "<group>"; };
 		A3D286D0275CC7D2003C2942 /* LineCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCharts.swift; sourceTree = "<group>"; };
 		A3D286D3275CCC6C003C2942 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A3F52CDF29E2A7D400692F72 /* ChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
+		A3F52CE129E2A91200692F72 /* ChipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipModel.swift; sourceTree = "<group>"; };
+		A3F52CE329E2AB3B00692F72 /* ChipContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipContainerView.swift; sourceTree = "<group>"; };
+		A3F52CE529E2ACE000692F72 /* ChipsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,6 +314,7 @@
 		A3B720CC26E4C2B100BB72B2 /* ViewItems */ = {
 			isa = PBXGroup;
 			children = (
+				A3F52CDE29E2A7A800692F72 /* ChipView */,
 				A3C4A864278ABD9B00155191 /* ChatView */,
 				A3300FD7278160C300B63C34 /* FaceIdAuth */,
 				A3D286CF275CC7BB003C2942 /* Charts */,
@@ -390,6 +399,17 @@
 				A3D286D3275CCC6C003C2942 /* XCTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3F52CDE29E2A7A800692F72 /* ChipView */ = {
+			isa = PBXGroup;
+			children = (
+				A3F52CDF29E2A7D400692F72 /* ChipView.swift */,
+				A3F52CE129E2A91200692F72 /* ChipModel.swift */,
+				A3F52CE329E2AB3B00692F72 /* ChipContainerView.swift */,
+				A3F52CE529E2ACE000692F72 /* ChipsContentView.swift */,
+			);
+			path = ChipView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -531,8 +551,10 @@
 				A3C521EB2753A45400D94509 /* CreditCardForm.swift in Sources */,
 				A3B720B126E3AACD00BB72B2 /* ViewsList.swift in Sources */,
 				A3C4A866278ABDD400155191 /* ChatModel.swift in Sources */,
+				A3F52CE229E2A91200692F72 /* ChipModel.swift in Sources */,
 				A3B720DA26E4C8EA00BB72B2 /* Spacing.swift in Sources */,
 				A3A81D812748F6E5007F5C2F /* ShimmerList.swift in Sources */,
+				A3F52CE429E2AB3B00692F72 /* ChipContainerView.swift in Sources */,
 				A388B38126FA29460000FBB2 /* AppCollectionView.swift in Sources */,
 				A3B720BC26E4BBDB00BB72B2 /* MenuItems.swift in Sources */,
 				A3A81D6B2748E27F007F5C2F /* HorizontalListView.swift in Sources */,
@@ -545,6 +567,7 @@
 				A3A81D602748D77E007F5C2F /* VerticalListView.swift in Sources */,
 				A3A81D702748E2E6007F5C2F /* HorizontalListItem.swift in Sources */,
 				A3854DA026C80D6700762655 /* AppDelegate.swift in Sources */,
+				A3F52CE029E2A7D400692F72 /* ChipView.swift in Sources */,
 				A3A81D8C274A3E6E007F5C2F /* SwipeableCard.swift in Sources */,
 				A3B720D226E4C39B00BB72B2 /* AppTextFields.swift in Sources */,
 				A3854DA226C80D6700762655 /* SceneDelegate.swift in Sources */,
@@ -554,6 +577,7 @@
 				A3854DD426C80E6000762655 /* AppButton.swift in Sources */,
 				A3D286D1275CC7D2003C2942 /* LineCharts.swift in Sources */,
 				A3B7209526E1D1BB00BB72B2 /* AppLabel.swift in Sources */,
+				A3F52CE629E2ACE000692F72 /* ChipsContentView.swift in Sources */,
 				A3B7213226F3A44500BB72B2 /* BottomSheet.swift in Sources */,
 				A3C4A868278ABDE500155191 /* ChatListView.swift in Sources */,
 				A3854DA426C80D6700762655 /* ContentView.swift in Sources */,
