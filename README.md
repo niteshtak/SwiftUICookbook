@@ -11,11 +11,7 @@ More components are coming soon.
 
 | Insta Strory View: | Shimmer Effect |
 | -------------------- | ------------------------ |
-| ![InstaStroyView_AdobeExpress](https://user-images.githubusercontent.com/8844612/236677747-78e7e44c-a2bc-423f-a252-cca128071fd9.gif) | ![shimmer-trimmed_AdobeExpress](https://user-images.githubusercontent.com/8844612/236677876-261ea556-7db4-4667-9884-975e355c43e8.gif) |
-
-
-
-
+| ![InstaStroyView_AdobeExpress](https://user-images.githubusercontent.com/8844612/236677747-78e7e44c-a2bc-423f-a252-cca128071fd9.gif) | ![shimmer-trimmed_AdobeExpress-3](https://user-images.githubusercontent.com/8844612/236678192-80d768ea-d0e7-4a0b-884e-b465de999fdb.gif) |
 
 
 Card Details View:
