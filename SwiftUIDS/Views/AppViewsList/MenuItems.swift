@@ -28,6 +28,7 @@ let menuItems: [MenuItem] = [
     MenuItem(id: 13, title: "FaceId Auth"),
     MenuItem(id: 14, title: "Chat List View"),
     MenuItem(id: 15, title: "Chip Views"),
+    MenuItem(id: 16, title: "Instagram Strory View"),
 ]
 
 let collectionItems: [CollectionItemModel] = [
