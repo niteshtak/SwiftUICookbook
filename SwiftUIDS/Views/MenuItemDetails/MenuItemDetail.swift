@@ -58,6 +58,8 @@ struct MenuItemDetail: View {
             ChatListView()
         case 15:
             ChipsContentView()
+        case 16:
+            StoryContentView()
         default:
             //Text("No Item available yet")
             Button(action: {

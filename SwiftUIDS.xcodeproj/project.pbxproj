@@ -42,6 +42,9 @@
 		A3C521EB2753A45400D94509 /* CreditCardForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C521EA2753A45400D94509 /* CreditCardForm.swift */; };
 		A3C521EE2753DE3100D94509 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C521ED2753DE3100D94509 /* BannerView.swift */; };
 		A3CA924A27083CD5004804B4 /* ImagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CA924927083CD5004804B4 /* ImagePreview.swift */; };
+		A3CAA8612A07C9E800A7C0DE /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CAA8602A07C9E800A7C0DE /* ProgressView.swift */; };
+		A3CAA8632A07CAFA00A7C0DE /* StoryContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CAA8622A07CAFA00A7C0DE /* StoryContentView.swift */; };
+		A3CAA8652A07CBCE00A7C0DE /* StoryTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CAA8642A07CBCE00A7C0DE /* StoryTimer.swift */; };
 		A3D286D1275CC7D2003C2942 /* LineCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D286D0275CC7D2003C2942 /* LineCharts.swift */; };
 		A3D286D5275CCC86003C2942 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D286D3275CCC6C003C2942 /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A3F52CE029E2A7D400692F72 /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F52CDF29E2A7D400692F72 /* ChipView.swift */; };
@@ -109,6 +112,9 @@
 		A3C521EA2753A45400D94509 /* CreditCardForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardForm.swift; sourceTree = "<group>"; };
 		A3C521ED2753DE3100D94509 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		A3CA924927083CD5004804B4 /* ImagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreview.swift; sourceTree = "<group>"; };
+		A3CAA8602A07C9E800A7C0DE /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		A3CAA8622A07CAFA00A7C0DE /* StoryContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryContentView.swift; sourceTree = "<group>"; };
+		A3CAA8642A07CBCE00A7C0DE /* StoryTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTimer.swift; sourceTree = "<group>"; };
 		A3D286D0275CC7D2003C2942 /* LineCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCharts.swift; sourceTree = "<group>"; };
 		A3D286D3275CCC6C003C2942 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A3F52CDF29E2A7D400692F72 /* ChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
@@ -314,6 +320,7 @@
 		A3B720CC26E4C2B100BB72B2 /* ViewItems */ = {
 			isa = PBXGroup;
 			children = (
+				A3CAA85F2A07C88300A7C0DE /* InstaStoryView */,
 				A3F52CDE29E2A7A800692F72 /* ChipView */,
 				A3C4A864278ABD9B00155191 /* ChatView */,
 				A3300FD7278160C300B63C34 /* FaceIdAuth */,
@@ -383,6 +390,16 @@
 				A3C521ED2753DE3100D94509 /* BannerView.swift */,
 			);
 			path = NotificationBanner;
+			sourceTree = "<group>";
+		};
+		A3CAA85F2A07C88300A7C0DE /* InstaStoryView */ = {
+			isa = PBXGroup;
+			children = (
+				A3CAA8602A07C9E800A7C0DE /* ProgressView.swift */,
+				A3CAA8622A07CAFA00A7C0DE /* StoryContentView.swift */,
+				A3CAA8642A07CBCE00A7C0DE /* StoryTimer.swift */,
+			);
+			path = InstaStoryView;
 			sourceTree = "<group>";
 		};
 		A3D286CF275CC7BB003C2942 /* Charts */ = {
@@ -563,9 +580,12 @@
 				A3B720A726E2879400BB72B2 /* TextStyle.swift in Sources */,
 				A3B720C226E4BD2800BB72B2 /* MenuItemDetail.swift in Sources */,
 				A388B37B26F6E3EB0000FBB2 /* SheetView.swift in Sources */,
+				A3CAA8612A07C9E800A7C0DE /* ProgressView.swift in Sources */,
 				A3300FD92781610400B63C34 /* FaceIdAuth.swift in Sources */,
 				A3A81D602748D77E007F5C2F /* VerticalListView.swift in Sources */,
 				A3A81D702748E2E6007F5C2F /* HorizontalListItem.swift in Sources */,
+				A3CAA8652A07CBCE00A7C0DE /* StoryTimer.swift in Sources */,
+				A3CAA8632A07CAFA00A7C0DE /* StoryContentView.swift in Sources */,
 				A3854DA026C80D6700762655 /* AppDelegate.swift in Sources */,
 				A3F52CE029E2A7D400692F72 /* ChipView.swift in Sources */,
 				A3A81D8C274A3E6E007F5C2F /* SwipeableCard.swift in Sources */,
