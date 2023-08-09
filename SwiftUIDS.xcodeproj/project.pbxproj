@@ -47,6 +47,7 @@
 		A3CAA8652A07CBCE00A7C0DE /* StoryTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CAA8642A07CBCE00A7C0DE /* StoryTimer.swift */; };
 		A3D286D1275CC7D2003C2942 /* LineCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D286D0275CC7D2003C2942 /* LineCharts.swift */; };
 		A3D286D5275CCC86003C2942 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D286D3275CCC6C003C2942 /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A3E64FB02A8372260019DC48 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E64FAF2A8372260019DC48 /* CalendarView.swift */; };
 		A3F52CE029E2A7D400692F72 /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F52CDF29E2A7D400692F72 /* ChipView.swift */; };
 		A3F52CE229E2A91200692F72 /* ChipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F52CE129E2A91200692F72 /* ChipModel.swift */; };
 		A3F52CE429E2AB3B00692F72 /* ChipContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F52CE329E2AB3B00692F72 /* ChipContainerView.swift */; };
@@ -117,6 +118,7 @@
 		A3CAA8642A07CBCE00A7C0DE /* StoryTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTimer.swift; sourceTree = "<group>"; };
 		A3D286D0275CC7D2003C2942 /* LineCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCharts.swift; sourceTree = "<group>"; };
 		A3D286D3275CCC6C003C2942 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A3E64FAF2A8372260019DC48 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		A3F52CDF29E2A7D400692F72 /* ChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
 		A3F52CE129E2A91200692F72 /* ChipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipModel.swift; sourceTree = "<group>"; };
 		A3F52CE329E2AB3B00692F72 /* ChipContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipContainerView.swift; sourceTree = "<group>"; };
@@ -320,6 +322,7 @@
 		A3B720CC26E4C2B100BB72B2 /* ViewItems */ = {
 			isa = PBXGroup;
 			children = (
+				A3E64FAE2A8370FB0019DC48 /* CalendarView */,
 				A3CAA85F2A07C88300A7C0DE /* InstaStoryView */,
 				A3F52CDE29E2A7A800692F72 /* ChipView */,
 				A3C4A864278ABD9B00155191 /* ChatView */,
@@ -416,6 +419,14 @@
 				A3D286D3275CCC6C003C2942 /* XCTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3E64FAE2A8370FB0019DC48 /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				A3E64FAF2A8372260019DC48 /* CalendarView.swift */,
+			);
+			path = CalendarView;
 			sourceTree = "<group>";
 		};
 		A3F52CDE29E2A7A800692F72 /* ChipView */ = {
@@ -595,6 +606,7 @@
 				A3A81D47272707B0007F5C2F /* CircularLoader.swift in Sources */,
 				A3A81D50273AB904007F5C2F /* VerticalListItem.swift in Sources */,
 				A3854DD426C80E6000762655 /* AppButton.swift in Sources */,
+				A3E64FB02A8372260019DC48 /* CalendarView.swift in Sources */,
 				A3D286D1275CC7D2003C2942 /* LineCharts.swift in Sources */,
 				A3B7209526E1D1BB00BB72B2 /* AppLabel.swift in Sources */,
 				A3F52CE629E2ACE000692F72 /* ChipsContentView.swift in Sources */,

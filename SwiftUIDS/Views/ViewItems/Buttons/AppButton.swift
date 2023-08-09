@@ -57,7 +57,7 @@ struct AppButton: View {
     
     var body: some View {
         Button(title, action: action)
-            .buttonStyle(AppButtonStyle(type: .primary))
+            .buttonStyle(AppButtonStyle(type: type))
     }
 }
 
